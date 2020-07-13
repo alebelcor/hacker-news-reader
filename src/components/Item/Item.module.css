@@ -1,0 +1,76 @@
+.item {
+  display: flex;
+  padding: 6px 0;
+  color: #000;
+}
+
+.comments {
+  min-width: 80px;
+  text-align: right;
+}
+
+.comments:visited {
+  color: #828282;
+}
+
+.comments:hover,
+.comments:focus {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+.score {
+  min-width: 64px;
+  text-align: right;
+}
+
+.hot {
+  color: #ff6600;
+}
+
+.mild {
+  color: #552200;
+}
+
+.medium {
+  color: #aa4400;
+}
+
+.upvote {
+  padding: 2px 8px 0;
+}
+
+.upvote:link,
+.upvote:visited {
+  color: #999;
+  font-size: 10px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.title:hover,
+.title:focus {
+  color: #ff6600;
+}
+
+.source {
+  font-size: 11px;
+  color: #828282;
+}
+
+.author {
+  font-size: 11px;
+  color: #b8b8b8;
+}
+
+.authorHandle:hover,
+.authorHandle:focus {
+  color: #ff6600;
+}
+
+.postedAt {
+  font-size: 11px;
+  color: #828282;
+}

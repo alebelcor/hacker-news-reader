@@ -1,0 +1,74 @@
+@import-normalize;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  color: #828282;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #000;
+}
+
+a:visited {
+  color: #828282;
+}
+
+.wrapper {
+  padding: 21px 0;
+  background-color: #f6f6ef;
+}
+
+.page {
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 765px) {
+  .page {
+    margin: 0 auto;
+    width: 750px;
+  }
+}
+
+@media (min-width: 1185px) {
+  .page {
+    width: 1170px;
+  }
+}
+
+.block-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

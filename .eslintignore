@@ -1,0 +1,8 @@
+# INFO: https://eslint.org/docs/user-guide/configuring#eslintignore
+
+build
+coverage
+node_modules
+public
+
+serviceWorker.js
