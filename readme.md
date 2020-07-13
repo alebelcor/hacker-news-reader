@@ -2,9 +2,11 @@
 
 > News reader app that displays the latest [Hacker News](http://news.ycombinator.com/) stories via [their API](https://github.com/HackerNews/API).
 
-UI was based off of [Hacker News Enhancement Suite](https://github.com/etcet/HNES) (browser extension).
+[Demo site](https://alebelcor.github.io/hacker-news-reader/)
 
 ![Screenshot of Hacker News Reader app](screenshot.png)
+
+Note: UI was based off of [Hacker News Enhancement Suite](https://github.com/etcet/HNES) (browser extension).
 
 ## Requirements
 
