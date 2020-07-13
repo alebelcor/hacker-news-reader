@@ -4,6 +4,8 @@
 
 UI was based off of [Hacker News Enhancement Suite](https://github.com/etcet/HNES) (browser extension).
 
+![Screenshot of Hacker News Reader app](screenshot.png)
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/) 12+
