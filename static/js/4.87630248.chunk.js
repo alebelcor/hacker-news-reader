@@ -1,0 +1,2 @@
+(this["webpackJsonphacker-news-reader"]=this["webpackJsonphacker-news-reader"]||[]).push([[4],{24:function(e,r,a){"use strict";a.r(r);var t=a(0),s=a.n(t),n=a(4);r.default=Object(n.a)(()=>s.a.createElement("div",{className:"text-center"},"There was en error loading the page. Please refresh to try again."),{pageTitle:"Error | Hacker News"})}}]);
+//# sourceMappingURL=4.87630248.chunk.js.map
