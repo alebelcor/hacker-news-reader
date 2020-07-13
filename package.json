@@ -2,15 +2,19 @@
   "name": "hacker-news-reader",
   "version": "1.0.0",
   "description": "News reader app that displays the latest Hacker News stories via their API.",
+  "homepage": "https://alebelcor.github.io/hacker-news-reader",
   "repository": "alebelcor/hacker-news-reader",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint . --ext .js,.jsx",
     "test": "react-scripts test --env=jsdom-fourteen",
-    "test:coverage": "react-scripts test --env=jsdom-fourteen --coverage --watchAll=false"
+    "test:coverage": "react-scripts test --env=jsdom-fourteen --coverage --watchAll=false",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "3.1.0",
     "ky": "0.20.0",
     "ky-universal": "0.8.1",
     "prop-types": "15.7.2",
